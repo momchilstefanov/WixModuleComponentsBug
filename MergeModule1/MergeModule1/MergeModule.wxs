@@ -1,0 +1,13 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Module Id="MergeModule1" Guid="505a5d96-dd86-4db0-9b62-ff51ea100a8a" Language="1033" Version="1.0.0.0">
+    <SummaryInformation Manufacturer="TODO Manufacturer" />
+
+    <Directory Id="MergeRedirectFolder">
+       <!--<File Id="Text1" Source="Test\Text1.txt" Name="Text1" />
+       <File Id="Text2" Source="Test\Text2.txt" Name="Text2" />-->
+    </Directory>
+
+    <Files Include="Test\**" Directory="MergeRedirectFolder" />
+
+  </Module>
+</Wix>
